@@ -1,0 +1,244 @@
+This is My Html File<!DOCTYPE html> 
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- Devicon CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+<!-- Font Awesome CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css" />
+  <title>Girish Portfolio</title>
+</head>
+<body>
+  <nav>
+    <div class="nav-container">
+      <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+      <span>Girish</span>
+      </div>
+      <div class="links">
+        <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="#home">Home</a></div>
+        <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="#about">About</a></div>
+        <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="#skills">Skills</a></div>
+        <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="#projects">Projects</a></div>
+        <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="#contact">Contact</a></div>
+      </div>
+      <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+    </div>
+    <div class="dropdown">
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+      </div>
+    </div>
+  </nav>
+
+ <!-- Home Section -->
+<section id="home">
+  <div class="main-container">
+   
+    <div class="content">
+      <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">Hey I'm <span>Girish Mhavale</span></h1>
+      <div class="typewriter" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">I'm a <span class="typewriter-text"></span><label>|</label></div>
+      <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">"Hey there! I’m a Java developer who builds clean, scalable, and high-performance applications. 
+        I'm all about writing solid code, solving real problems, and bringing ideas to life through technology."</p>
+      <div class="social-links">
+        <a href="https://github.com/girishgm7793" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300"><i class="fa-brands fa-github"></i></a>
+        <!-- <a href="https://www.linkedin.com/in/girish-mhavale-aa058b199/" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400"><i class="fa-brands fa-instagram"></i></a> -->
+        <a href="https://www.linkedin.com/in/girish-mhavale-aa058b199/" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"><i class="fa-brands fa-linkedin"></i></a>
+        <!-- <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1600"><i class="fa-brands fa-twitter"></i></a> -->
+      </div>
+      <div class="btn" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1800">
+        <button>Download CV</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about-container" data-aos="fade-up" data-aos-duration="1500">
+        <h2>About Me</h2>
+        <p>
+            Hi, I'm Girish Mhavale — a passionate Java Developer based in India. I specialize in building robust, scalable, and high-performance backend systems using Java and modern frameworks like Spring and Hibernate. With a strong foundation in object-oriented programming, clean architecture, and RESTful API development, I bring efficiency and reliability to every solution I create.
+        </p>
+        <p>
+            I'm driven by clean code, performance optimization, and a mindset of continuous improvement. Whether it's architecting microservices, integrating databases, or collaborating with front-end teams, I bring precision, problem-solving, and a deep understanding of backend technologies to the table.
+        </p>   
+    </div>
+</section>
+
+
+ <!-- Skills Section -->
+ <section id="skills">
+  <div class="skills-container">
+    <h2>My Skills</h2>
+    <ul class="skills-list">
+      <!-- Devicon + Font Awesome -->
+      <li class="skill-item"><i class="devicon-git-plain colored"></i><span>Git</span></li>
+      <li class="skill-item"><i class="devicon-github-original colored"></i><span>GitHub</span></li>
+      <li class="skill-item"><i class="devicon-java-plain colored"></i><span>Core Java</span></li>
+      <li class="skill-item"><i class="devicon-javascript-plain colored"></i><span>JavaScript</span></li>
+      <li class="skill-item"><i class="devicon-html5-plain colored"></i><span>HTML5</span></li>
+      <li class="skill-item"><i class="devicon-css3-plain colored"></i><span>CSS3</span></li>
+      <li class="skill-item"><i class="devicon-bootstrap-plain colored"></i><span>Bootstrap</span></li>
+      <li class="skill-item"><i class="devicon-angularjs-plain colored"></i><span>Angular</span></li>
+
+      <li class="skill-item"><i class="devicon-mongodb-plain colored"></i><span>Hibernate</span></li>
+      <li class="skill-item"><i class="devicon-mysql-plain colored"></i><span>MySQL</span></li>
+      <li class="skill-item"><img src="https://cdn.worldvectorlogo.com/logos/postman.svg" alt="Postman" width="40"><span>Postman</span></li>
+      <!-- <li class="skill-item"><img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="Tailwind CSS" width="40"><span>Tailwind CSS</span></li> -->
+     
+      <!-- <li class="skill-item"><i class="devicon-postgresql-plain colored"></i><span>PostgreSQL</span></li> -->
+      <li class="skill-item"><i class="devicon-maven-plain colored"></i><span>Maven</span></li>
+
+      <!-- <li class="skill-item"><i class="devicon-gradle-plain colored"></i><span>Gradle</span></li> -->
+      <li class="skill-item"><i class="devicon-spring-plain colored"></i><span>Spring </span></li>
+      <li class="skill-item"><i class="devicon-spring-plain colored"></i><span>Spring Boot</span></li>
+      
+      <li class="skill-item"><i class="devicon-tomcat-line colored"></i><span>Apache Tomcat</span></li>
+      <li class="skill-item"><i class="fas fa-network-wired" style="color:#0f9d58;"></i><span>RESTful API</span></li>
+      <li class="skill-item"><i class="fas fa-mobile-alt" style="color:#0ea5e9;"></i><span>Responsive Design</span></li>
+    
+      <!-- <li class="skill-item"><i class="fas fa-users" style="color:#f97316;"></i><span>Agile & Scrum</span></li> -->
+     
+    </ul>
+  </div>
+</section>
+
+
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="projects-container" data-aos="fade-up" data-aos-duration="1500">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Portfolio Website</h3>
+        <p>A sleek and interactive personal portfolio showcasing my skills and work.</p>
+      </div>
+      <div class="project">
+        <h3>Todo App</h3>
+        <p>A simple and intuitive todo app built with React, allowing users to manage their tasks efficiently.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section" style="padding: 40px; text-align: center; background: #f9f9f9;">
+    <div class="contact-container" style="max-width: 850px; margin: auto; padding: 25px; border-radius: 12px; background: white; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <h1 style="font-size: 30px; margin-bottom: 15px; color: brown; font-weight: bold;">Get in Touch</h1>
+        <p style="font-size: 17px; color: #333; margin-bottom: 25px;">I would love to hear from you! Feel free to reach out.</p>
+
+        <div class="contact-details" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
+            <!-- Contact Info Cards -->
+            <div class="contact-card" style="flex: 1 1 250px; display: flex; align-items: center; background: #f8f8f8; padding: 15px 20px; border-radius: 8px;">
+                <i class="fa-solid fa-user" style="margin-right: 12px; color: brown; font-size: 20px;"></i>
+                <strong style="font-size: 17px; color: #333;">Girish Mhavale</strong>
+            </div>
+            <div class="contact-card" style="flex: 1 1 250px; display: flex; align-items: center; background: #f8f8f8; padding: 15px 20px; border-radius: 8px;">
+                <i class="fa-solid fa-map-marker-alt" style="margin-right: 12px; color: brown; font-size: 20px;"></i>
+                <span style="font-size: 17px; color: #333;">Pune, Maharashtra, India</span>
+            </div>
+            <div class="contact-card" style="flex: 1 1 250px; display: flex; align-items: center; background: #f8f8f8; padding: 15px 20px; border-radius: 8px;">
+                <i class="fa-solid fa-envelope" style="margin-right: 12px; color: brown; font-size: 20px;"></i>
+                <span style="font-size: 17px; color: #333;">ggmhavale2000@gmail.com</span>
+            </div>
+            <div class="contact-card" style="flex: 1 1 250px; display: flex; align-items: center; background: #f8f8f8; padding: 15px 20px; border-radius: 8px;">
+                <i class="fa-solid fa-phone" style="margin-right: 12px; color: brown; font-size: 20px;"></i>
+                <span style="font-size: 17px; color: #333;">+91 9373382949</span> 
+            </div>
+        </div>
+
+        <!-- Google Map: Visible only on desktop -->
+        <div class="map-container" style="margin-top: 30px; border-radius: 12px; overflow: hidden; display: none;">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.475538855761!2d73.79864152503735!3d18.50335398258692!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bfb60cc8b2ab%3A0x9675261cc2470504!2sSagar%20Colony%2C%20Shastri%20Nagar%2C%20Kothrud%2C%20Pune%2C%20Maharashtra%20411038!5e1!3m2!1sen!2sin!4v1755150863941!5m2!1sen!2sin" 
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
+                  width="100%" height="350" style="border: 2px solid brown; border-radius: 12px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+      </div>
+      
+        </div>
+    </div>
+</section>
+
+<!-- FontAwesome Icons CDN -->
+<script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
+
+<!-- AOS Library -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    // Initialize AOS
+    AOS.init({offset:0});
+    
+    // SPA Navigation (Mobile Menu & Section Navigation)
+    document.querySelectorAll('.nav-link').forEach(link => {
+        link.addEventListener('click', function(e) {
+            e.preventDefault();
+            const targetSection = this.getAttribute('data-target');
+            
+            // Hide all sections
+            document.querySelectorAll('.section').forEach(section => {
+                section.classList.remove('active');
+            });
+            
+            // Show target section
+            document.getElementById(targetSection).classList.add('active');
+            
+            // Close mobile menu if open
+            document.querySelector(".dropdown").style.transform = "translateY(-500px)";
+        });
+    });
+
+    // Mobile menu functions
+    function hamburg() {
+        document.querySelector(".dropdown").style.transform = "translateY(0px)";
+    }
+    
+    function cancel() {
+        document.querySelector(".dropdown").style.transform = "translateY(-500px)";
+    }
+    
+    // Set home as default active section
+    document.addEventListener('DOMContentLoaded', function() {
+        document.getElementById('home').classList.add('active');
+    });
+
+    // Toggle Google Map visibility based on screen size
+    function toggleMapVisibility() {
+        const mapContainer = document.querySelector('.map-container');
+        if (window.innerWidth >= 768) {
+            mapContainer.style.display = 'block'; // Show map on desktop
+        } else {
+            mapContainer.style.display = 'none'; // Hide map on mobile
+        }
+    }
+    window.addEventListener('load', toggleMapVisibility);
+    window.addEventListener('resize', toggleMapVisibility);
+</script>
+
+
+  <!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({ offset: 0 });
+  </script>
+  <script src="script.js"></script> -->
+  <!-- AOS Library -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({ offset: 0 });
+</script>
+
+<!-- Your Custom Script -->
+<script src="script.js"></script>
+
+</body>
+</html>
